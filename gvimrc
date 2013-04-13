@@ -1,10 +1,10 @@
 set guioptions=ce
 set antialias
-colorscheme rails_envy
+"colorscheme rails_envy
 set linespace=2
 
 if has("gui_macvim")
-  set guifont=Monaco:h17
+  set guifont=Monaco:h14
 elseif has("gui_gtk")
   set guifont=Monospace\ 14
 else
