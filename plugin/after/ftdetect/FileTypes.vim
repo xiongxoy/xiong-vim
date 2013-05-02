@@ -1,5 +1,6 @@
 " Objective-C
-autocmd! BufNewFile,BufRead *.m set filetype=objc
+autocmd! BufNewFile,BufRead *.m set filetype=matlab
+"autocmd! BufNewFile,BufRead *.m set filetype=objc
 
 " ActionScript
 autocmd! BufNewFile,BufRead *.as set filetype=actionscript

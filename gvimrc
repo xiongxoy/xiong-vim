@@ -1,6 +1,5 @@
 set guioptions=ce
 set antialias
-"colorscheme rails_envy
 set linespace=2
 
 if has("gui_macvim")
@@ -15,8 +14,8 @@ if has("gui_macvim")
   set transparency=0
 
   " disable IM while leaving insert mode
-  "autocmd InsertEnter * set noimdisable
-  "autocmd InsertLeave * set imdisable
+  " autocmd InsertEnter * set noimdisable
+  " autocmd InsertLeave * set imdisable
 
   " move a line of text using ALT+[jk] or Comamnd+[jk] on mac
   nmap <D-j> mz:m+<cr>`z
@@ -41,5 +40,11 @@ if has("gui_macvim")
   for i in range(1, 9)
     exec "nnoremap <D-".i."> ".i."gt"
   endfor
+
+" added by xiongxoy
+let do_syntax_sel_menu = 1|runtime! synmenu.vim|aunmenu &Syntax.&Show\ filetypes\ in\ menu
+colorscheme wombat
+set invfu
+" TODO 如果文件名以m结尾，就改成matlab配色
 
 endif
