@@ -1,3 +1,10 @@
+" Markdown
+autocmd! BufNewFile,BufRead *.md set filetype=mkd
+autocmd! BufNewFile,BufRead *.mkd set filetype=mkd
+
+" Latex
+autocmd! BufNewFile,BufRead *.tex set filetype=tex
+
 " Objective-C
 autocmd! BufNewFile,BufRead *.m set filetype=matlab
 "autocmd! BufNewFile,BufRead *.m set filetype=objc
