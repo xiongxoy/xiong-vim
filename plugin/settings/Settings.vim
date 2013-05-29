@@ -88,6 +88,9 @@ autocmd WinLeave * setlocal nocursorline
 " ======================================
 "  custom key and plugin configurations
 " ======================================
+" to enable auto commenting
+autocmd FileType * setlocal formatoptions+=c formatoptions+=r formatoptions+=o
+
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
