@@ -1,6 +1,6 @@
 " Markdown
-autocmd! BufNewFile,BufRead *.md set filetype=mkd
-autocmd! BufNewFile,BufRead *.mkd set filetype=mkd
+"autocmd! BufNewFile,BufRead *.md set filetype=mkd
+"autocmd! BufNewFile,BufRead *.mkd set filetype=mkd
 
 " Latex
 autocmd! BufNewFile,BufRead *.tex set filetype=tex
