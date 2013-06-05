@@ -2,7 +2,7 @@
 " Latex
 autocmd! BufNewFile,BufRead *.tex set filetype=tex
 
-" Objective-C
+"Matlab (instead of  Objective-C)
 autocmd! BufNewFile,BufRead *.m set filetype=matlab
 "autocmd! BufNewFile,BufRead *.m set filetype=objc
 

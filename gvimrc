@@ -45,6 +45,7 @@ if has("gui_macvim")
 let do_syntax_sel_menu = 1|runtime! synmenu.vim|aunmenu &Syntax.&Show\ filetypes\ in\ menu
 colorscheme wombat
 set invfu
-" TODO 如果文件名以m结尾，就改成matlab配色
+" move to markdown, added by xiongxoy
+autocmd! BufNewFile,BufRead *.md set filetype=markdown
 
 endif
